@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 MultiCampus
 ===========
 
@@ -39,3 +40,7 @@ Please someone help me out here if you know the answer. It appears Joomla doesn'
 However. I added a work around as of v0.0.2. Create them menu items with the correct alias and a normal type -- I use Featured Articles. Then create a redirect for that url to the external url or alias you want to go to in the Joomla Redirect component. Finally, enable "Redirect Publish URLs" in the plugin.
 
 Basically, the URLs are rewritten as before. When requested, the plugin hijacks the request, checks the Joomla redirects for where you want the request to go, and redirects if necessary. This work nearly the same as the default redirect plugin, but it will redirect urls regardless of whether they exists or not; the default one will only redirect if they don't exist.
+=======
+# joomla-adminredirect
+Redirect login destination on administrator login into joomla
+>>>>>>> fb85994b673ba18c6976ef89510ba965471d4017
