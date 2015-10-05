@@ -27,8 +27,6 @@ class PlgUserAdminRedirect extends JPlugin {
 		
 		if (!$app->isAdmin()||empty($redirecturl)) return;
 		
-		//~ echo pre($redirecturl); exit;
-		
 		$app->redirect(JRoute::_($redirecturl,false));
 	}
 }
